@@ -1,12 +1,13 @@
 import HeroSection from "@/components/HeroSection";
-import StatsSection from "@/components/StatsSection";
-import MarketSection from "@/components/MarketSection";
-import ComparisonSection from "@/components/ComparisonSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import CurriculumSection from "@/components/CurriculumSection";
-import PricingSection from "@/components/PricingSection";
+import PainSection from "@/components/PainSection";
+import TruthSection from "@/components/TruthSection";
+import SolutionSection from "@/components/SolutionSection";
+import ModulesSection from "@/components/ModulesSection";
 import AboutSection from "@/components/AboutSection";
-import ImmersionSection from "@/components/ImmersionSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import AudienceSection from "@/components/AudienceSection";
+import PricingSection from "@/components/PricingSection";
+import ReflectionSection from "@/components/ReflectionSection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
 
@@ -14,14 +15,15 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <HeroSection />
-      <StatsSection />
-      <MarketSection />
-      <ComparisonSection />
-      <TestimonialsSection />
-      <CurriculumSection />
-      <PricingSection />
+      <PainSection />
+      <TruthSection />
+      <SolutionSection />
+      <ModulesSection />
       <AboutSection />
-      <ImmersionSection />
+      <TestimonialsSection />
+      <AudienceSection />
+      <PricingSection />
+      <ReflectionSection />
       <FAQSection />
       <FooterSection />
     </main>

@@ -17,28 +17,36 @@ const HeroSection = () => {
       {/* Badge */}
       <div className="border border-primary/30 rounded-full px-6 py-2 mb-10">
         <span className="font-heading text-foreground text-xs tracking-widest font-semibold">
-          GET READY FOR THE GLOBAL MARKET!
+          PRESIDENT LANGUAGE APRESENTA
         </span>
       </div>
 
       {/* Headline */}
       <div className="max-w-4xl text-center mb-6">
         <h1 className="font-heading text-3xl md:text-5xl lg:text-[3.2rem] font-bold leading-tight text-foreground mb-2">
-          Não basta falar inglês. O mercado não paga pela sua fluência, mas pela sua{" "}
+          Apresentações Corporativas em Inglês Que Fazem Você Ser{" "}
           <span className="text-gradient-cyan">
-            capacidade de gerar impacto com resultado em escala global.
+            Ouvido, Respeitado e Lembrado
           </span>
         </h1>
       </div>
 
       {/* Subheadline */}
       <p className="max-w-3xl text-center text-muted-foreground text-base md:text-lg mb-4 leading-relaxed">
-        O Global Exchange é um programa exclusivo de aceleração de carreira, Business English e internacionalização para líderes, executivos e empresários que querem atuar com máxima performance no mercado internacional.
+        O curso definitivo para profissionais que já falam inglês — mas travam, perdem impacto e soam genéricos quando precisam apresentar para stakeholders internacionais.
       </p>
 
       <p className="max-w-3xl text-center text-muted-foreground text-sm md:text-base mb-10 leading-relaxed">
-        Prepare-se para alavancar sua carreira, multiplicar suas oportunidades e se posicionar com estratégia e autoridade em operações, projetos e negócios internacionais.
+        Curso 100% gravado — acesse no seu ritmo e aplique já na sua próxima apresentação internacional.
       </p>
+
+      {/* CTA */}
+      <a
+        href="#valor"
+        className="inline-block bg-primary text-primary-foreground font-heading font-bold text-sm tracking-wider px-8 py-4 rounded-lg hover:opacity-90 transition-opacity mb-12"
+      >
+        QUERO APRESENTAR COM IMPACTO EM INGLÊS
+      </a>
 
       {/* Hero Image */}
       <div className="relative max-w-3xl w-full">
