@@ -7,42 +7,40 @@ import {
 
 const faqs = [
   {
-    question: "Como serão as mentorias realizadas no programa?",
-    answer: "As mentorias serão realizadas em português com algumas interações em inglês. O maior objetivo deste projeto inicial é estruturar sua carreira, trabalhar seu posicionamento e lhe entregar um plano estratégico de internacionalização.",
+    question: "Preciso ter inglês fluente para fazer o curso?",
+    answer: "Não. O curso foi desenhado para profissionais com inglês intermediário ou avançado. Você não precisa ser fluente — precisa ter uma base funcional. O curso vai te ensinar a usar o que você já sabe com muito mais impacto.",
   },
   {
-    question: "Quais são os dias e horários disponíveis para as turmas?",
-    answer: "Às segundas, das 19h às 21h e aos sábados, das 10h às 12h e das 14h às 16h, ao vivo no ZOOM.",
+    question: "O curso é ao vivo ou gravado?",
+    answer: "100% gravado. Você acessa no seu ritmo, revisa quantas vezes quiser e aplica os templates antes da sua próxima apresentação.",
   },
   {
-    question: "E se eu não conseguir acompanhar ou aplicar tudo?",
-    answer: "Você terá acesso a 4 semanas de mentoria + 12 meses de aulas gravadas de Business English e ao grupo de networking no LinkedIn para acelerar a sua preparação para o mercado internacional.",
+    question: "Quanto tempo de acesso eu tenho?",
+    answer: "Acesso vitalício. Uma vez dentro, o conteúdo é seu para sempre.",
   },
   {
-    question: "Qual será o meu resultado ao participar do programa?",
-    answer: "Você terá clareza sobre sua carreira, seu posicionamento no mercado e o passo a passo para expandir suas operações, projetos e negócios no mercado internacional.",
+    question: "Esse curso substitui um curso de inglês?",
+    answer: "Não — e nem é essa a proposta. Cursos de inglês ensinam o idioma. Este curso ensina comunicação estratégica para apresentações em contextos corporativos internacionais. É um complemento poderoso, não um substituto.",
   },
   {
-    question: "Esse programa é online ou presencial?",
-    answer: "A estrutura é híbrida, com mentoria ao vivo no ZOOM, aulas gravadas na plataforma digital e condição especial para participar de uma imersão presencial.",
+    question: "E se eu não gostar?",
+    answer: "Você tem 7 dias de garantia incondicional. Se não fizer sentido, devolvemos 100% do valor. Sem burocracia.",
   },
   {
-    question: "Como funciona o suporte do programa?",
-    answer: "Você terá acesso ao WhatsApp exclusivo do programa para tirar as suas dúvidas e suporte exclusivo no e-mail: suporte@presidentlanguage.com",
-  },
-  {
-    question: "Como posso pagar? Posso parcelar?",
-    answer: "Você pode realizar o pagamento à vista no Pix ou em 12x no cartão de crédito pela Hotmart.",
+    question: "Serve para a minha área de atuação?",
+    answer: "Se na sua área você precisa apresentar projetos, resultados, propostas ou updates para stakeholders internacionais — sim. O método é aplicável a qualquer setor: finanças, marketing, TI, engenharia, consultoria, RH, vendas e gestão.",
   },
 ];
 
 const FAQSection = () => {
   return (
-    <section className="py-20 px-4 bg-secondary">
+    <section className="py-20 px-4 bg-background bg-grid-pattern">
       <div className="max-w-3xl mx-auto">
+        <p className="text-primary font-heading font-bold text-sm tracking-widest text-center mb-4">
+          PERGUNTAS FREQUENTES
+        </p>
         <h2 className="font-heading text-2xl md:text-3xl font-bold text-center text-foreground mb-12">
-          Ainda com dúvidas?{" "}
-          <span className="text-primary">As respostas abaixo podem te ajudar!</span>
+          Tire suas dúvidas
         </h2>
 
         <Accordion type="single" collapsible className="space-y-3">
@@ -50,7 +48,7 @@ const FAQSection = () => {
             <AccordionItem
               key={i}
               value={`faq-${i}`}
-              className="bg-background border-gradient-cyan rounded-xl px-6 border-b-0"
+              className="bg-card border-gradient-cyan rounded-xl px-6 border-b-0"
             >
               <AccordionTrigger className="font-heading font-semibold text-foreground text-left hover:no-underline">
                 {faq.question}
