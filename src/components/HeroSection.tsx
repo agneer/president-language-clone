@@ -17,7 +17,7 @@ const HeroSection = () => {
       {/* Badge */}
       <div className="border border-primary/30 rounded-full px-6 py-2 mb-10">
         <span className="font-heading text-foreground text-xs tracking-widest font-semibold">
-          PRESIDENT LANGUAGE APRESENTA
+          EXCLUSIVO PARA GERENTES, DIRETORES, C-LEVEL
         </span>
       </div>
 
