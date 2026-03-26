@@ -1,37 +1,53 @@
+import heroImage from "@/assets/luciane-hero-v2.jpg";
+
 const HeroV2 = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center py-20 px-4 bg-background bg-gradient-radial-cyan overflow-hidden">
-      {/* Logo */}
-      <div className="flex items-center gap-3 mb-10">
-        <div className="w-12 h-12 border-2 border-primary rounded-full flex items-center justify-center">
-          <span className="text-primary font-heading font-bold text-lg">PL</span>
+    <section className="relative min-h-screen flex items-center py-20 px-4 md:px-8 lg:px-16 bg-background bg-gradient-radial-cyan overflow-hidden">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Left: Text Content */}
+        <div className="flex flex-col items-start">
+          {/* Logo */}
+          <div className="flex items-center gap-3 mb-10">
+            <div className="w-12 h-12 border-2 border-primary rounded-full flex items-center justify-center">
+              <span className="text-primary font-heading font-bold text-lg">PL</span>
+            </div>
+            <div>
+              <p className="font-heading text-foreground tracking-[0.3em] text-sm font-semibold">PRESIDENT</p>
+              <p className="font-heading text-muted-foreground tracking-[0.3em] text-xs">LANGUAGE</p>
+            </div>
+          </div>
+
+          {/* Headline */}
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-[3rem] font-bold leading-tight text-foreground mb-6">
+            Você fala inglês. Mas na hora de apresentar para o board...{" "}
+            <span className="text-gradient-cyan">trava.</span>
+          </h1>
+
+          {/* Sub-headline */}
+          <p className="text-muted-foreground text-base md:text-lg mb-10 leading-relaxed max-w-xl">
+            Descubra o método que executivos usam para conduzir apresentações corporativas em inglês com segurança, clareza e autoridade — mesmo sob pressão.
+          </p>
+
+          {/* CTA */}
+          <a
+            href="#oferta"
+            className="inline-block bg-primary text-primary-foreground font-heading font-bold text-sm tracking-wider px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
+          >
+            QUERO APRESENTAR COM CONFIANÇA →
+          </a>
         </div>
-        <div>
-          <p className="font-heading text-foreground tracking-[0.3em] text-sm font-semibold">PRESIDENT</p>
-          <p className="font-heading text-muted-foreground tracking-[0.3em] text-xs">LANGUAGE</p>
+
+        {/* Right: Image */}
+        <div className="relative flex justify-center lg:justify-end">
+          <div className="rounded-2xl overflow-hidden border border-primary/20 shadow-2xl shadow-primary/10 max-w-lg w-full">
+            <img
+              src={heroImage}
+              alt="Luciane Santos apresentando em ambiente corporativo com gráficos e mapa global"
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
-
-      {/* Headline */}
-      <div className="max-w-4xl text-center mb-6">
-        <h1 className="font-heading text-3xl md:text-5xl lg:text-[3.4rem] font-bold leading-tight text-foreground">
-          Você fala inglês. Mas na hora de apresentar para o board...{" "}
-          <span className="text-gradient-cyan">trava.</span>
-        </h1>
-      </div>
-
-      {/* Sub-headline */}
-      <p className="max-w-3xl text-center text-muted-foreground text-base md:text-lg mb-12 leading-relaxed">
-        Descubra o método que executivos usam para conduzir apresentações corporativas em inglês com segurança, clareza e autoridade — mesmo sob pressão.
-      </p>
-
-      {/* CTA */}
-      <a
-        href="#oferta"
-        className="inline-block bg-primary text-primary-foreground font-heading font-bold text-sm tracking-wider px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
-      >
-        QUERO APRESENTAR COM CONFIANÇA →
-      </a>
 
       {/* Floating particles */}
       <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-primary/40 rounded-full" />
