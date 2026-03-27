@@ -1,4 +1,4 @@
-import lucianeImg from "@/assets/luciane-portrait.jpg";
+import lucianeImg from "@/assets/luciane-about.jpg";
 
 const AboutV3 = () => {
   return (
