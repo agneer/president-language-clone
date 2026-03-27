@@ -11,11 +11,11 @@ const AboutV3 = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left — Photo */}
           <div className="flex justify-center">
-            <div className="rounded-2xl overflow-hidden border-gradient-cyan card-glow max-w-sm">
+            <div className="rounded-2xl overflow-hidden border-gradient-cyan card-glow w-full">
               <img
                 src={lucianeImg}
                 alt="Luciane Santos - Head de Carreira e Internacionalização"
-                className="w-full h-auto object-cover"
+                className="w-full h-[520px] object-cover object-top"
                 loading="lazy"
               />
             </div>
