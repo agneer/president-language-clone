@@ -1,4 +1,5 @@
 import heroImage from "@/assets/luciane-hero-v3.jpg";
+import plLogo from "@/assets/pl-logo-white.png";
 
 const HeroV3 = () => {
   return (
@@ -7,14 +8,8 @@ const HeroV3 = () => {
         {/* Left: Text Content */}
         <div className="flex flex-col items-start">
           {/* Logo */}
-          <div className="flex items-center gap-3 mb-10">
-            <div className="w-12 h-12 border-2 border-primary rounded-full flex items-center justify-center">
-              <span className="text-primary font-heading font-bold text-lg">PL</span>
-            </div>
-            <div>
-              <p className="font-heading text-foreground tracking-[0.3em] text-sm font-semibold">PRESIDENT</p>
-              <p className="font-heading text-muted-foreground tracking-[0.3em] text-xs">LANGUAGE</p>
-            </div>
+          <div className="mb-10">
+            <img src={plLogo} alt="President Language" className="h-10 w-auto" />
           </div>
 
           {/* Badge */}
