@@ -9,7 +9,7 @@ const HeroV3 = () => {
         <div className="flex flex-col items-start">
           {/* Logo */}
           <div className="mb-10">
-            <img src={plLogo} alt="President Language" className="h-10 w-auto" />
+            <img src={plLogo} alt="President Language" className="h-16 w-auto" />
           </div>
 
           {/* Badge */}
