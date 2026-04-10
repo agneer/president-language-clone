@@ -32,7 +32,7 @@ const AboutV4 = () => {
 
             <div className="space-y-4 mb-8">
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Há 30 anos, Luciane vive dentro do mundo corporativo internacional. Não como observadora — como quem prepara os profissionais que sentam na mesa de decisão.
+                Há 30 anos, Luciane vive dentro do mundo corporativo internacional. Não como observadora, como quem prepara os profissionais que sentam na mesa de decisão.
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Com formação em Letras e Mestrado em Linguística Aplicada pela UFMG, além de especializações em Comunicação Internacional de Negócios pela ISA Irlanda e DAL University (Canadá), ela construiu um método que nasce da prática, não do livro didático.
@@ -42,7 +42,7 @@ const AboutV4 = () => {
             {/* Quote */}
             <div className="bg-background border-gradient-cyan rounded-xl p-5">
               <p className="text-foreground text-sm italic leading-relaxed">
-                "Eu acompanhei na prática o que essa preparação pode fazer na vida dos nossos alunos. Não é teoria — é o que funciona em boardrooms reais, com executivos reais, em negócios reais."
+                "Eu acompanhei na prática o que essa preparação pode fazer na vida dos nossos alunos. Não é teoria, é o que funciona em boardrooms reais, com executivos reais, em negócios reais."
               </p>
               <p className="text-primary font-heading font-semibold text-sm mt-3">— Luciane Santos</p>
             </div>
