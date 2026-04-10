@@ -20,7 +20,7 @@ const BonusV4 = () => {
             <span className="text-3xl flex-shrink-0">🎯</span>
             <div>
               <h3 className="font-heading text-base font-semibold text-primary mb-2">
-                2 horas ao vivo e individual com Luciane Santos
+                2 horas ao vivo com Luciane Santos
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Diagnóstico personalizado da sua carreira + seu mapa real de internacionalização construído na hora, com quem já posicionou mais de 10.000 profissionais no mercado global.
@@ -31,7 +31,7 @@ const BonusV4 = () => {
           <div className="flex items-center gap-3 bg-destructive/5 rounded-lg p-4 border border-destructive/10">
             <span className="w-2.5 h-2.5 rounded-full bg-destructive animate-pulse flex-shrink-0" />
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Consultoria individual exige presença real e foco total. Quando a 10ª vaga fechar, esse bônus some — e não volta nessa turma.
+              Consultoria exige presença real e foco total. Quando a 10ª vaga fechar, esse bônus some, e não volta nessa turma.
             </p>
           </div>
         </div>
