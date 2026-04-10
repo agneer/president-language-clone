@@ -1,3 +1,5 @@
+import executiveImg from "@/assets/executive-thinking.jpg";
+
 const objections = [
   {
     question: '"Já fiz inglês e não funcionou."',
@@ -20,18 +22,36 @@ const ObjectionsV4 = () => {
   return (
     <section className="py-20 px-4 bg-background relative">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-      <div className="max-w-2xl mx-auto">
-        <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground text-center mb-12">
-          Talvez você esteja pensando...
-        </h2>
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          {/* Image left */}
+          <div className="relative rounded-2xl overflow-hidden">
+            <img
+              src={executiveImg}
+              alt="Executivo pensativo"
+              loading="lazy"
+              width={768}
+              height={1024}
+              className="w-full h-auto object-cover rounded-2xl"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+          </div>
 
-        <div className="space-y-6">
-          {objections.map((obj, i) => (
-            <div key={i} className="bg-card rounded-xl p-7 border border-primary/10">
-              <p className="font-heading text-lg italic text-foreground mb-3">{obj.question}</p>
-              <p className="text-muted-foreground text-sm leading-relaxed">{obj.answer}</p>
+          {/* Text right */}
+          <div>
+            <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-8">
+              Talvez você esteja pensando...
+            </h2>
+
+            <div className="space-y-5">
+              {objections.map((obj, i) => (
+                <div key={i} className="bg-card rounded-xl p-6 border border-primary/10">
+                  <p className="font-heading text-lg italic text-foreground mb-2">{obj.question}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{obj.answer}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>
