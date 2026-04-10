@@ -2,12 +2,12 @@ const painCards = [
   {
     icon: "🔇",
     title: "Trava nas reuniões em inglês",
-    desc: "Você tem o resultado, tem a competência técnica — mas quando a conversa muda para inglês, fica um passo atrás. A reunião segue, a negociação avança, e você assiste.",
+    desc: "Você tem o resultado, tem a competência técnica, mas quando a conversa muda para inglês, fica um passo atrás. A reunião segue, a negociação avança, e você assiste.",
   },
   {
     icon: "📚",
     title: "Já estudou inglês e não funcionou",
-    desc: "Escola de idiomas, app, curso online. Você melhorou, mas na hora que mais importa — numa reunião real, numa negociação real — ainda não performa do jeito que precisa.",
+    desc: "Escola de idiomas, app, curso online. Você melhorou, mas na hora que mais importa, numa reunião real, numa negociação real, ainda não performa do jeito que precisa.",
   },
   {
     icon: "🎯",
