@@ -4,12 +4,12 @@ const objections = [
   {
     question: '"Já fiz inglês e não funcionou."',
     answer:
-      "O Global Exchange não é um curso de inglês. É um sistema de desenvolvimento de carreira internacional que usa o inglês como ferramenta. Você não vai estudar inglês por estudar — vai aprender a usar o inglês para avançar na sua carreira. Isso é completamente diferente.",
+      "O Global Exchange não é um curso de inglês. É um sistema de desenvolvimento de carreira internacional que usa o inglês como ferramenta. Você não vai estudar inglês por estudar, vai aprender a usar o inglês para avançar na sua carreira. Isso é completamente diferente.",
   },
   {
     question: '"Não tenho tempo para mais um curso."',
     answer:
-      "O programa foi feito para quem tem agenda de profissional — não de estudante. Aulas assíncronas: você assiste quando quiser. Encontros ao vivo pontuais. A estratégia de aprendizagem integra o curso na sua rotina, sem empurrar mais uma obrigação.",
+      "O programa foi feito para quem tem agenda de profissional, não de estudante. Aulas assíncronas: você assiste quando quiser. Encontros ao vivo pontuais. A estratégia de aprendizagem integra o curso na sua rotina, sem empurrar mais uma obrigação.",
   },
   {
     question: '"Meu inglês não está bom o suficiente."',
