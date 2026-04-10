@@ -24,7 +24,7 @@ const HeroV4 = () => {
 
         {/* Sub-headline */}
         <p className="text-muted-foreground text-base md:text-lg mb-10 leading-relaxed max-w-2xl mx-auto">
-          O sistema de 7 módulos que integra estratégia de carreira, Business English e posicionamento global para profissionais que querem parar de travar no inglês e começar a competir no mercado internacional.
+          O Treinamento de 7 módulos que integra estratégia de carreira, Business English e posicionamento global para profissionais que querem parar de travar no inglês e começar a competir no mercado internacional.
         </p>
 
         {/* Video placeholder */}
