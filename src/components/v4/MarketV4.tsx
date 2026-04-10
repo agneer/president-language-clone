@@ -3,17 +3,17 @@ import { X, Check } from "lucide-react";
 const topStats = [
   {
     value: "+53%",
-    desc: "de crescimento na contratação de brasileiros por empresas estrangeiras em um único ano",
+    desc: "de crescimento na contratação de brasileiros por empresas estrangeiras em um único ano.",
     source: "RELATÓRIO DEEL 2025",
   },
   {
     value: "5º",
-    desc: "lugar no ranking mundial — o Brasil é o 5º país mais contratado internacionalmente",
+    desc: "lugar no ranking mundial, o Brasil é o 5º país mais contratado internacionalmente.",
     source: "RELATÓRIO DEEL / EXAME",
   },
   {
     value: "+220%",
-    desc: "é quanto brasileiros em empresas do exterior ganham a mais que em empresas nacionais",
+    desc: "é quanto brasileiros em empresas do exterior ganham a mais que em empresas nacionais.",
     source: "PESQUISA TECHFX / TECMUNDO",
   },
 ];
@@ -23,7 +23,7 @@ const dataPoints = [
     icon: "💰",
     text: (
       <>
-        <strong className="text-primary">Salário médio de US$ 110 mil/ano</strong> para brasileiros contratados por empresas americanas — cerca de R$ 598 mil por ano
+        <strong className="text-primary">Salário médio de US$ 110 mil/ano</strong> para brasileiros contratados por empresas americanas, cerca de R$ 598 mil por ano.
       </>
     ),
   },
@@ -31,7 +31,7 @@ const dataPoints = [
     icon: "🌍",
     text: (
       <>
-        <strong className="text-primary">1 em cada 4 brasileiros</strong> quer trabalhar para o exterior — mas apenas quem tem estratégia e posicionamento conquista as vagas
+        <strong className="text-primary">1 em cada 4 brasileiros</strong> quer trabalhar para o exterior, mas apenas quem tem estratégia e posicionamento conquista as vagas.
       </>
     ),
   },
@@ -39,7 +39,7 @@ const dataPoints = [
     icon: "💬",
     text: (
       <>
-        <strong className="text-primary">Fluentes em inglês ganham até 160% a mais</strong> do que profissionais com nível intermediário nas mesmas funções internacionais
+        <strong className="text-primary">Fluentes em inglês ganham até 160% a mais</strong> do que profissionais com nível intermediário nas mesmas funções internacionais.
       </>
     ),
   },
@@ -47,30 +47,30 @@ const dataPoints = [
     icon: "🚀",
     text: (
       <>
-        <strong className="text-primary">+491% de aumento</strong> nas contratações internacionais de profissionais brasileiros entre 2020 e 2023 — e a curva só acelera
+        <strong className="text-primary">+491% de aumento</strong> nas contratações internacionais de profissionais brasileiros entre 2020 e 2023, e a curva só acelera.
       </>
     ),
   },
 ];
 
 const leftItems = [
-  "Estuda inglês genérico há anos — e ainda trava em reuniões reais",
-  "Currículo traduzido — mas sem posicionamento de valor",
-  "Dispara candidaturas em massa em sites de vagas",
-  "Não entende diferenças culturais — perde negociações sem saber por quê",
-  "Espera estar \"pronto\" para se posicionar",
-  "Compete por preço com milhares de candidatos",
-  "Depende de sorte para ser notado por recrutadores",
+  "Estuda inglês genérico há anos, e ainda trava em reuniões reais;",
+  "Currículo traduzido, mas sem posicionamento de valor;",
+  "Dispara candidaturas em massa em sites de vagas;",
+  "Não entende diferenças culturais, perde negociações sem saber por quê;",
+  "Espera estar \"pronto\" para se posicionar;",
+  "Compete por preço com milhares de candidatos;",
+  "Depende de sorte para ser notado por recrutadores.",
 ];
 
 const rightItems = [
-  "Domina Business English aplicado — apresenta, negocia e influencia com confiança",
-  "Tem proposta de valor executiva e LinkedIn posicionado como especialista",
-  "Conecta-se diretamente com decisores em empresas globais",
-  "Tem inteligência cultural — adapta comunicação, liderança e decisão ao contexto",
-  "Age com estratégia e PDI claro antes de \"estar pronto\"",
-  "É disputado por valor — não compete por preço",
-  "Tem rede estratégica que gera indicações diretas",
+  "Domina Business English aplicado, apresenta, negocia e influencia com confiança;",
+  "Tem proposta de valor executiva e LinkedIn posicionado como especialista;",
+  "Conecta-se diretamente com decisores em empresas globais;",
+  "Tem inteligência cultural, adapta comunicação, liderança e decisão ao contexto;",
+  "Age com estratégia e PDI claro antes de \"estar pronto\";",
+  "É disputado por valor, não compete por preço;",
+  "Tem rede estratégica que gera indicações diretas.",
 ];
 
 const MarketV4 = () => {
@@ -116,7 +116,7 @@ const MarketV4 = () => {
         </div>
 
         <p className="text-foreground text-lg max-w-2xl mx-auto mb-20">
-          O mercado internacional não está apenas observando os brasileiros —{" "}
+          O mercado internacional não está apenas observando os brasileiros,{" "}
           <strong>está contratando</strong>.<br />
           A única pergunta é: você vai estar posicionado quando a próxima oportunidade aparecer?
         </p>
@@ -126,7 +126,7 @@ const MarketV4 = () => {
           O que separa quem <span className="text-primary italic">fica para trás</span>
           <br />de quem <span className="text-primary italic">compete globalmente</span>
         </h2>
-        <p className="text-muted-foreground mb-12">A diferença não é talento. É sistema.</p>
+        <p className="text-muted-foreground mb-12">A diferença não é talento. É posicionamento.</p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           {/* Left - Profissional Comum */}
