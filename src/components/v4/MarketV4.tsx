@@ -162,7 +162,7 @@ const MarketV4 = () => {
 
         <p className="text-foreground text-lg max-w-3xl mx-auto">
           O Global Exchange 2.0 foi criado para levar você da <strong>coluna da esquerda</strong> para a{" "}
-          <strong>coluna da direita</strong> — com método, não com sorte.
+          <strong>coluna da direita</strong>, com MÉTODO, não com sorte.
         </p>
       </div>
     </section>
