@@ -12,8 +12,8 @@ const HeroV4 = () => {
 
         {/* Headline */}
         <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground mb-7 max-w-3xl mx-auto">
-          Você Tem a Competência. Tem o Resultado. Mas Quando a Conversa Muda Para Inglês,{" "}
-          <span className="text-gradient-cyan">a Oportunidade Vai Embora.</span>
+          Você tem a competência. Tem o resultado. Mas quando a conversa muda para inglês,{" "}
+          <span className="text-gradient-cyan">a OPORTUNIDADE vai embora.</span>
         </h1>
 
         {/* Sub-headline */}
