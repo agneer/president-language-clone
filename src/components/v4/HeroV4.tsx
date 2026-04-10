@@ -9,12 +9,6 @@ const HeroV4 = () => {
           <img src={plLogo} alt="President Language" className="h-16 w-auto" />
         </div>
 
-        {/* Badge */}
-        <div className="inline-block border border-primary/30 rounded-full px-6 py-2 mb-8">
-          <span className="text-primary font-heading font-bold text-xs tracking-[0.25em]">
-            PRESIDENT LANGUAGE
-          </span>
-        </div>
 
         {/* Headline */}
         <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground mb-7 max-w-3xl mx-auto">
