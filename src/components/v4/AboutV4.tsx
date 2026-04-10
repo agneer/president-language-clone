@@ -39,21 +39,6 @@ const AboutV4 = () => {
               </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 gap-3 mb-8">
-              {[
-                { value: "10.000+", label: "profissionais capacitados" },
-                { value: "40+", label: "multinacionais atendidas" },
-                { value: "12+", label: "países com alunos" },
-                { value: "30", label: "anos de experiência" },
-              ].map((stat, i) => (
-                <div key={i} className="bg-background border-gradient-cyan rounded-xl p-3 text-center">
-                  <p className="font-heading font-bold text-primary text-lg">{stat.value}</p>
-                  <p className="text-muted-foreground text-xs mt-1">{stat.label}</p>
-                </div>
-              ))}
-            </div>
-
             {/* Quote */}
             <div className="bg-background border-gradient-cyan rounded-xl p-5">
               <p className="text-foreground text-sm italic leading-relaxed">
