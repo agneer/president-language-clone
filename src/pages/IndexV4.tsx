@@ -1,6 +1,6 @@
 import HeroV4 from "@/components/v4/HeroV4";
 import StatsV4 from "@/components/v4/StatsV4";
-import PainV4 from "@/components/v4/PainV4";
+import MarketV4 from "@/components/v4/MarketV4";
 import AboutV4 from "@/components/v4/AboutV4";
 import ModulesV4 from "@/components/v4/ModulesV4";
 import DeliverablesV4 from "@/components/v4/DeliverablesV4";
@@ -16,7 +16,7 @@ const IndexV4 = () => {
       <HeroV4 />
       <StatsV4 />
       <ObjectionsV4 />
-      <PainV4 />
+      <MarketV4 />
       <AboutV4 />
       <ModulesV4 />
       <DeliverablesV4 />
