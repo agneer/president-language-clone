@@ -13,11 +13,11 @@ const IndexV4 = () => {
   return (
     <main className="min-h-screen">
       <HeroV4 />
+      <ObjectionsV4 />
       <PainV4 />
       <CredibilityV4 />
       <ModulesV4 />
       <DeliverablesV4 />
-      <ObjectionsV4 />
       <BonusV4 />
       <PricingV4 />
       <ClosingV4 />
