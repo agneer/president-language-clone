@@ -2,7 +2,7 @@ import plLogo from "@/assets/pl-logo-white.png";
 
 const HeroV4 = () => {
   return (
-    <section className="relative py-24 md:py-32 px-4 bg-background bg-gradient-radial-cyan overflow-hidden">
+    <section className="relative pt-12 md:pt-16 pb-24 md:pb-32 px-4 bg-background bg-gradient-radial-cyan overflow-hidden">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo */}
         <div className="flex justify-center mb-10">
