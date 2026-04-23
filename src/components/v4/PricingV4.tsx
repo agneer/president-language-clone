@@ -40,12 +40,12 @@ const PricingV4 = () => {
           <span className="text-3xl align-super">R$</span> 597
         </p>
         <p className="text-muted-foreground text-base mb-10">
-          ou <strong className="text-foreground">12x de R$ 59,21</strong> no cartão
+          ou <strong className="text-foreground">12x de R$ 59,58</strong> no cartão
         </p>
 
         {/* CTA */}
         <a
-          href="https://pay.hotmart.com/SEU_LINK_AQUI"
+          href="https://pay.hotmart.com/Y103856439F"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-primary text-primary-foreground font-heading font-bold text-base tracking-wider px-12 py-4 rounded-lg hover:opacity-90 transition-opacity"
