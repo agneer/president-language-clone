@@ -4,6 +4,7 @@ const items = [
   { text: "Aulas em inglês com legenda", desc: "— treine vocabulário executivo enquanto aprende estratégia" },
   { text: "Material de suporte em português", desc: "+ quiz ao final de cada módulo" },
   { text: "Grupo estratégico no LinkedIn", desc: "— comunidade de líderes, executivos e decisores globais" },
+  { text: "Roadmap Executivo", desc: "— Guia para a conquista de posições globais com ganhos acima de USD 30k/mês" },
 ];
 
 const DeliverablesV4 = () => {
