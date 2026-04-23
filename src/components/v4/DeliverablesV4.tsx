@@ -50,10 +50,10 @@ const DeliverablesV4 = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-fr">
           {items.map((feature, i) => (
-            <AnimatedContainer key={i} delay={i * 0.08}>
-              <FeatureCard feature={feature} />
+            <AnimatedContainer key={i} delay={i * 0.08} className="h-full">
+              <FeatureCard feature={feature} className="h-full" />
             </AnimatedContainer>
           ))}
         </div>
