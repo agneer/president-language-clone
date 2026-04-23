@@ -6,6 +6,7 @@ const valorItems = [
   "Aulas em inglês com legenda + suporte em português",
   "Comunidade exclusiva de líderes no LinkedIn",
   "Quiz de fixação ao final de cada módulo",
+  "Roadmap Executivo — Guia para posições globais com ganhos acima de USD 30k/mês",
 ];
 
 const PricingV4 = () => {
