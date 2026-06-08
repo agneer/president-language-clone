@@ -35,7 +35,7 @@ const AboutV3 = () => {
                 Há 30 anos, Luciane vive dentro do mundo corporativo internacional. Não como observadora — como quem prepara os profissionais que sentam na mesa de decisão.
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Com formação em Letras e Mestrado em Linguística Aplicada pela UFMG, além de especializações em Comunicação Internacional de Negócios pela ISA Irlanda e DOS University (Canadá), ela construiu um método que nasce da prática, não do livro didático.
+                Com formação em Letras e Mestrado em Linguística Aplicada pela UFMG, além de especializações em Comunicação Internacional de Negócios pela ISI Dublin na Irlanda e Dalhousie University no Canadá, ela construiu um método que nasce da prática, não do livro didático.
               </p>
             </div>
 
