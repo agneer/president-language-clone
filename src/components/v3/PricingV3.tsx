@@ -35,7 +35,7 @@ const PricingV3 = () => {
           </div>
 
           <div className="border-t border-border pt-6">
-            <p className="text-muted-foreground text-sm mb-1">Total: <span className="line-through">R$ 791</span></p>
+            <p className="text-muted-foreground text-sm mb-1">Total: <span className="line-through">R$ 891</span></p>
             <p className="text-muted-foreground text-sm mb-2">Você paga hoje:</p>
             <p className="font-heading text-4xl md:text-6xl font-bold text-foreground mb-1">
               R$ 197
