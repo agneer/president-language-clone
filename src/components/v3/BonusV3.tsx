@@ -24,9 +24,12 @@ const BonusV3 = () => {
         <p className="text-primary font-heading font-bold text-sm tracking-widest mb-4">
           BÔNUS EXCLUSIVOS
         </p>
-        <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-12">
-          Para quem se inscrever agora
+        <h2 className="font-heading text-2xl md:text-4xl font-bold text-foreground mb-4">
+          Dois frameworks de elite que poucos executivos conhecem
         </h2>
+        <p className="text-muted-foreground text-base mb-12 max-w-2xl mx-auto">
+          Aulas gravadas com líderes que aplicam, no dia a dia, os mesmos modelos usados em Harvard e na McKinsey para conquistar boardrooms. Você recebe isso de presente ao se inscrever agora.
+        </p>
 
         <div className="grid md:grid-cols-2 gap-6">
           {bonuses.map((bonus, i) => (
@@ -42,7 +45,9 @@ const BonusV3 = () => {
               </div>
               <h3 className="font-heading font-bold text-foreground text-lg mb-3">{bonus.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{bonus.description}</p>
-              <p className="text-primary font-heading font-bold text-sm">Valor: {bonus.value}</p>
+              <div className="inline-block bg-primary/10 rounded-lg px-4 py-2 self-start">
+                <p className="text-primary font-heading font-bold text-sm">Valor real: {bonus.value}</p>
+              </div>
             </div>
           ))}
         </div>
