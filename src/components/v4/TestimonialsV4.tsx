@@ -2,10 +2,12 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const videos = [
-  { id: "mA1gOCqFsjs", title: "Depoimento 1" },
-  { id: "IkooqlnWVDI", title: "Depoimento 2" },
-  { id: "0yIKbPbMj7E", title: "Depoimento 3" },
-  { id: "VIDEO_4_ID", title: "Depoimento 4" },
+  { id: "7teJGrrjltM", title: "Depoimento 1" },
+  { id: "XEmUOzZx9yU", title: "Depoimento 2" },
+  { id: "h6fhknAS7R0", title: "Depoimento 3" },
+  { id: "mDr-r6ufZfc", title: "Depoimento 4" },
+  { id: "daFhEF_0zoI", title: "Depoimento 5" },
+  { id: "nHB4xFkUIgs", title: "Depoimento 6" },
 ];
 
 const TestimonialsV4 = () => {
