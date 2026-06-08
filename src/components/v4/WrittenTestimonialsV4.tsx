@@ -1,6 +1,7 @@
 import anaAlmeidaPhoto from "@/assets/ana-almeida.avif.asset.json";
 import nelitoAndradePhoto from "@/assets/nelito-andrade.avif.asset.json";
 import julianoZimmerPhoto from "@/assets/juliano-zimmer.avif.asset.json";
+import georgeRubadelPhoto from "@/assets/george-rubadel.avif.asset.json";
 
 const testimonials = [
   {
@@ -24,7 +25,7 @@ const testimonials = [
   {
     name: "George Rubadel",
     role: "Palestrante Especialista em Comunicação | Vendas e Persuasão",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
+    photo: georgeRubadelPhoto.url,
     text: "Muito incrível o projeto e os profissionais envolvidos. Em especial a professora Luciane, tamanha competência e carisma. Tudo com o intuito e o propósito de contribuir com a evolução profissional de pessoas que buscam alçar voos internacionais!",
   },
   {
