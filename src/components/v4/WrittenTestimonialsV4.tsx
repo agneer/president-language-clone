@@ -18,7 +18,7 @@ const testimonials = [
   {
     name: "Juliano Zimmer",
     role: "Gestão de Projetos | PMP® | Especialista em Melhoria Contínua | Excelência Operacional | Operações | Qualidade",
-    photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=faces",
+    photo: julianoZimmerPhoto.url,
     text: "Excelente serviço: muita competência técnica aliada à simpatia, cordialidade e didática. A Luciane tem uma grande didática e conhecimento de negócios, culturas, carreiras e inglês. Tive inúmeras experiências com ensino de inglês anteriormente e a abordagem dela superou minhas expectativas, pois aprendemos muito através de dinâmicas que representam muito bem a realidade do mundo conectado, globalizado e multicultural de hoje. Parabéns pelo trabalho! Recomendo muito!",
   },
   {
