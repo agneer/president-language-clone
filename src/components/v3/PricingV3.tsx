@@ -40,7 +40,7 @@ const PricingV3 = () => {
             <p className="font-heading text-4xl md:text-6xl font-bold text-foreground mb-1">
               R$ 197
             </p>
-            <p className="text-muted-foreground mb-8">ou 12x de R$ 19,09 no cartão</p>
+            <p className="text-muted-foreground mb-8">ou 12x de R$ 19,66 no cartão</p>
 
             <a
               href="https://pay.hotmart.com/W104873972T"
