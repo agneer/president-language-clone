@@ -34,11 +34,11 @@ const BonusV3 = () => {
         <div className="grid md:grid-cols-2 gap-6">
           {bonuses.map((bonus, i) => (
             <div key={i} className="bg-card border-gradient-cyan rounded-2xl p-8 card-glow flex flex-col">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex flex-col items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center">
                   <Gift className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="text-center">
                   <p className="font-heading font-bold text-foreground text-sm">Bônus #{i + 1}</p>
                   <p className="text-muted-foreground text-xs">{bonus.subtitle}</p>
                 </div>
