@@ -3,6 +3,7 @@ import StatsV4 from "@/components/v4/StatsV4";
 import MarketV4 from "@/components/v4/MarketV4";
 import AboutV4 from "@/components/v4/AboutV4";
 import TestimonialsV4 from "@/components/v4/TestimonialsV4";
+import WrittenTestimonialsV4 from "@/components/v4/WrittenTestimonialsV4";
 import ModulesV4 from "@/components/v4/ModulesV4";
 import DeliverablesV4 from "@/components/v4/DeliverablesV4";
 import ObjectionsV4 from "@/components/v4/ObjectionsV4";
@@ -24,7 +25,7 @@ const IndexV4 = () => {
       <DeliverablesV4 />
       <BonusV4 />
       <PricingV4 />
-      <TestimonialsV4 />
+      <WrittenTestimonialsV4 />
       <ClosingV4 />
       <FooterV4 />
     </main>
