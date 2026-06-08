@@ -44,8 +44,8 @@ const BonusV3 = () => {
                 </div>
               </div>
               <h3 className="font-heading font-bold text-foreground text-lg mb-3">{bonus.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{bonus.description}</p>
-              <div className="inline-block bg-primary/10 rounded-lg px-4 py-2 self-start">
+              <p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4 text-center">{bonus.description}</p>
+              <div className="inline-block bg-primary/10 rounded-lg px-4 py-2 self-center">
                 <p className="text-primary font-heading font-bold text-sm">Valor real: {bonus.value}</p>
               </div>
             </div>
