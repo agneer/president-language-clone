@@ -43,7 +43,7 @@ const PricingV3 = () => {
             <p className="text-muted-foreground mb-8">ou 12x de R$ 19,09 no cartão</p>
 
             <a
-              href="https://pay.hotmart.com/T96070806I"
+              href="https://pay.hotmart.com/W104873972T"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block w-full max-w-md bg-primary text-primary-foreground font-heading font-bold text-base tracking-wider px-8 py-4 rounded-lg hover:opacity-90 transition-opacity"
