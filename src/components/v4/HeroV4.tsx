@@ -1,6 +1,19 @@
 import { useEffect } from "react";
 import plLogo from "@/assets/pl-logo-white.png";
 
+declare module "react" {
+  namespace JSX {
+    interface IntrinsicElements {
+      "vturb-smartplayer": React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > & {
+        id?: string;
+      };
+    }
+  }
+}
+
 const VTurbPlayer = () => {
   useEffect(() => {
     const existing = document.querySelector(
