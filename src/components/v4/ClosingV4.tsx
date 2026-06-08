@@ -14,9 +14,7 @@ const ClosingV4 = () => {
         </p>
 
         <a
-          href="https://pay.hotmart.com/SEU_LINK_AQUI"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#oferta"
           className="inline-block bg-primary text-primary-foreground font-heading font-bold text-sm tracking-wider px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
         >
           QUERO COMEÇAR AGORA

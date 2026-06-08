@@ -93,9 +93,7 @@ const HeroV4 = () => {
 
         {/* CTA */}
         <a
-          href="https://pay.hotmart.com/Y103856439F"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#oferta"
           className="inline-block bg-primary text-primary-foreground font-heading font-bold text-sm tracking-wider px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
         >
           QUERO MINHA VAGA NO GLOBAL EXCHANGE 2.0
