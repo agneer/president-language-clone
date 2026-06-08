@@ -21,7 +21,8 @@ const IndexV3 = () => {
       <PainV3 />
       <TruthV3 />
       <ProductV3 />
-      <TestimonialsV3 />
+      <TestimonialsV4 />
+      <WrittenTestimonialsV4 />
       <AudienceV3 />
       <AboutV3 />
       <BonusV3 />
