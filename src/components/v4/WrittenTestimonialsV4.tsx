@@ -1,4 +1,6 @@
 import anaAlmeidaPhoto from "@/assets/ana-almeida.avif.asset.json";
+import nelitoAndradePhoto from "@/assets/nelito-andrade.avif.asset.json";
+import julianoZimmerPhoto from "@/assets/juliano-zimmer.avif.asset.json";
 
 const testimonials = [
   {
