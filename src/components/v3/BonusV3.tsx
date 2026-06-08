@@ -2,16 +2,18 @@ import { Gift } from "lucide-react";
 
 const bonuses = [
   {
-    title: "Análises Reais de Apresentações",
-    subtitle: "2 vídeos",
+    title: "Ana Paula de Castro Almeida",
+    subtitle: "Aula bônus",
     value: "R$ 197",
-    description: "Assista Luciane Santos analisando, ao vivo, apresentações reais de mentorados. Você vai ver exatamente o que funciona, o que trava e como corrigir.",
+    description:
+      "HR Director | Head of People and Culture | Organizational Strategy & Transformation | M&A, Business Agility, and Global Leadership. Na aula bônus, Ana Almeida compartilhou sua experiência executiva utilizando o modelo de persuasão de Harvard nas apresentações de projetos para o board.",
   },
   {
-    title: "Template de Apresentação Corporativa em Inglês",
-    subtitle: "Google Slides",
-    value: "R$ 97",
-    description: "Um modelo pronto com a estrutura que executivos usam em boardrooms internacionais. É só adaptar ao seu conteúdo e apresentar.",
+    title: "Dr. Ana Cristina Albricker, M.Sc.",
+    subtitle: "Aula bônus",
+    value: "R$ 197",
+    description:
+      "Cardiologist & Medical School Coordinator at UniBH | Professor of Medicine | Clinical Researcher. Na aula bônus, Ana Cristina compartilhou o modelo Pyramid McKinsey de apresentações que utiliza para o board.",
   },
 ];
 
