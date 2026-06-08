@@ -1,4 +1,45 @@
+import { useEffect } from "react";
 import plLogo from "@/assets/pl-logo-white.png";
+
+declare module "react" {
+  namespace JSX {
+    interface IntrinsicElements {
+      "vturb-smartplayer": React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > & {
+        id?: string;
+      };
+    }
+  }
+}
+
+const VTurbPlayer = () => {
+  useEffect(() => {
+    const existing = document.querySelector(
+      'script[src="https://scripts.converteai.net/bbee80a6-c1cc-4ac7-aaba-6b87c23cdb21/players/6a26c1c6c1bee70a991d2f7a/v4/player.js"]'
+    );
+    if (existing) return;
+
+    const script = document.createElement("script");
+    script.src = "https://scripts.converteai.net/bbee80a6-c1cc-4ac7-aaba-6b87c23cdb21/players/6a26c1c6c1bee70a991d2f7a/v4/player.js";
+    script.async = true;
+    document.head.appendChild(script);
+
+    return () => {
+      // Não removemos o script para evitar problemas de re-hidratação
+    };
+  }, []);
+
+  return (
+    <div className="max-w-2xl mx-auto mb-12 rounded-xl overflow-hidden border border-primary/15 shadow-2xl shadow-primary/10">
+      <vturb-smartplayer
+        id="vid-6a26c1c6c1bee70a991d2f7a"
+        style={{ display: "block", margin: "0 auto", width: "100%" }}
+      />
+    </div>
+  );
+};
 
 const HeroV4 = () => {
   return (
@@ -47,14 +88,8 @@ const HeroV4 = () => {
           O Treinamento de 7 módulos que integra estratégia de carreira, Business English e posicionamento global para profissionais que querem parar de travar no inglês e começar a competir no mercado internacional.
         </p>
 
-        {/* Video placeholder */}
-        <div className="max-w-2xl mx-auto mb-12 rounded-xl overflow-hidden border border-primary/15 shadow-2xl shadow-primary/10 aspect-video bg-card flex items-center justify-center">
-          <div className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
-            <svg viewBox="0 0 24 24" className="w-7 h-7 fill-primary-foreground ml-1">
-              <polygon points="8,5 19,12 8,19" />
-            </svg>
-          </div>
-        </div>
+        {/* VTurb SmartPlayer */}
+        <VTurbPlayer />
 
         {/* CTA */}
         <a
