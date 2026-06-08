@@ -33,10 +33,12 @@ const VTurbPlayer = () => {
 
   return (
     <div className="max-w-2xl mx-auto mb-12 rounded-xl overflow-hidden border border-primary/15 shadow-2xl shadow-primary/10">
-      <vturb-smartplayer
-        id="vid-6a26c1c6c1bee70a991d2f7a"
-        style={{ display: "block", margin: "0 auto", width: "100%" }}
-      />
+      <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+        <vturb-smartplayer
+          id="vid-6a26c1c6c1bee70a991d2f7a"
+          style={{ position: "absolute", inset: 0, display: "block", width: "100%", height: "100%" }}
+        />
+      </div>
     </div>
   );
 };
