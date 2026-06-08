@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import plLogo from "@/assets/pl-logo-white.png";
 
 const HeroV4 = () => {
