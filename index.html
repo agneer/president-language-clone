@@ -18,51 +18,67 @@
     <meta property="og:description" content="Lovable Generated Project">
     <meta name="twitter:description" content="Lovable Generated Project">
 
-    <!-- Meta Pixel Code (with CAPI dedup) -->
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin />
+    <link rel="preconnect" href="https://uwrmdlagngkgvxzyqheq.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://scripts.converteai.net" crossorigin />
+
+    <!-- Meta Pixel Code (deferred to avoid blocking LCP) -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1009910047703439');
-
       (function () {
-        var eventId = (self.crypto && self.crypto.randomUUID)
-          ? self.crypto.randomUUID()
-          : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
+        function loadPixel() {
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '1009910047703439');
 
-        // Browser Pixel PageView with explicit event_id
-        fbq('track', 'PageView', {}, { eventID: eventId });
+          var eventId = (self.crypto && self.crypto.randomUUID)
+            ? self.crypto.randomUUID()
+            : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
 
-        function getCookie(name) {
-          var m = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-          return m ? decodeURIComponent(m.pop()) : undefined;
+          fbq('track', 'PageView', {}, { eventID: eventId });
+
+          function getCookie(name) {
+            var m = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+            return m ? decodeURIComponent(m.pop()) : undefined;
+          }
+
+          var SUPABASE_URL = "https://uwrmdlagngkgvxzyqheq.supabase.co";
+          var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cm1kbGFnbmdrZ3Z4enlxaGVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NDc2NzQsImV4cCI6MjA5NjUyMzY3NH0.yLOL_z2adJ6rO6ECcy0XcxIPXnd_2UWTZ2OKWpmeGA0";
+
+          try {
+            fetch(SUPABASE_URL + "/functions/v1/meta-capi", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + SUPABASE_ANON,
+                "apikey": SUPABASE_ANON
+              },
+              body: JSON.stringify({
+                event_id: eventId,
+                event_source_url: window.location.href,
+                fbp: getCookie('_fbp'),
+                fbc: getCookie('_fbc')
+              }),
+              keepalive: true
+            }).catch(function () {});
+          } catch (e) {}
         }
 
-        var SUPABASE_URL = "https://uwrmdlagngkgvxzyqheq.supabase.co";
-        var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cm1kbGFnbmdrZ3Z4enlxaGVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NDc2NzQsImV4cCI6MjA5NjUyMzY3NH0.yLOL_z2adJ6rO6ECcy0XcxIPXnd_2UWTZ2OKWpmeGA0";
+        function schedule() {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadPixel, { timeout: 3000 });
+          } else {
+            setTimeout(loadPixel, 1500);
+          }
+        }
 
-        try {
-          fetch(SUPABASE_URL + "/functions/v1/meta-capi", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "Authorization": "Bearer " + SUPABASE_ANON,
-              "apikey": SUPABASE_ANON
-            },
-            body: JSON.stringify({
-              event_id: eventId,
-              event_source_url: window.location.href,
-              fbp: getCookie('_fbp'),
-              fbc: getCookie('_fbc')
-            }),
-            keepalive: true
-          }).catch(function () {});
-        } catch (e) {}
+        if (document.readyState === 'complete') schedule();
+        else window.addEventListener('load', schedule, { once: true });
       })();
     </script>
     <!-- End Meta Pixel Code -->
