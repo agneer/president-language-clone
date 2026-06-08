@@ -33,13 +33,13 @@ const testimonials = [
   {
     name: "Ana Celano",
     role: "Profa PhD FGV e IBMEC. Diretora Executiva – Franco Celano Comunicação",
-    photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=faces",
+    photo: anaCelanoPhoto.url,
     text: "O atendimento personalizado oferecido na President Language é a melhor forma de aplicar metodologias diferenciadas com os alunos e o que garante excelente resultado. Posso afirmar que no meu caso os objetivos estão sendo ultrapassados a cada dia e já consigo sentir um expressivo progresso em meu desenvolvimento.",
   },
   {
     name: "Fernando Coradi",
     role: "Vice President EHS/Facilities & Construction Equipment Division Operations – Komatsu Brasil",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=faces",
+    photo: fernandoCoradiPhoto.url,
     text: "Todo suporte técnico que recebi da President Language em minhas mentorias de carreira, Business English e internacionalização, foi de importância fundamental ao meu crescimento profissional e ao desenvolvimento de minhas atividades nas operações, projetos e negócios globais.",
   },
 ];
