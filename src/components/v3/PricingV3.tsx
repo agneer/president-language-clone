@@ -2,8 +2,8 @@ import { Shield } from "lucide-react";
 
 const items = [
   { label: "Curso Business English para Apresentações Corporativas", value: "R$ 497" },
-  { label: "Bônus: 2 Análises Reais de Apresentações", value: "R$ 197" },
-  { label: "Bônus: Template de Apresentação (Google Slides)", value: "R$ 97" },
+  { label: "Bônus: O Modelo de Persuasão de Harvard (com Ana Paula de Castro Almeida)", value: "R$ 197" },
+  { label: "Bônus: O Framework Pyramid McKinsey (com Dr. Ana Cristina Albricker)", value: "R$ 197" },
 ];
 
 const PricingV3 = () => {
