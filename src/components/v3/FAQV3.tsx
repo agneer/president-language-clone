@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Quanto tempo tenho de acesso?",
-    a: "Acesso imediato e vitalício a todo o conteúdo do curso, incluindo futuras atualizações.",
+    a: "Acesso imediato a todo o conteúdo do curso pelo período de 12 meses, incluindo atualizações disponibilizadas durante esse prazo.",
   },
   {
     q: "Como funciona a garantia?",
