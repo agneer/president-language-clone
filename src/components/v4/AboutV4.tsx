@@ -1,4 +1,4 @@
-import lucianeImg from "@/assets/luciane-about.jpg";
+import lucianeImg from "@/assets/luciane-about.webp";
 
 const AboutV4 = () => {
   return (
