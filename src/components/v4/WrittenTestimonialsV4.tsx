@@ -1,8 +1,10 @@
+import anaAlmeidaPhoto from "@/assets/ana-almeida.avif.asset.json";
+
 const testimonials = [
   {
     name: "Ana Almeida",
     role: "VP | Estratégia & Transformação | Head de RH, Cultura e Pessoas | Comunicação e Marketing | ESG | M&A | Turnaround",
-    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=faces",
+    photo: anaAlmeidaPhoto.url,
     text: "O trabalho com a President Language foi fundamental para o meu desenvolvimento profissional. Através das orientações, consegui fortalecer minhas competências para o mercado internacional, aprimorando minha comunicação e fluência no idioma. Também aprendi a adaptar minha forma de me comunicar a diferentes culturas, o que tornou minhas interações mais claras e assertivas. Além disso, o suporte recebido me deu segurança e direcionamento para me posicionar de maneira mais estratégica e conduzir apresentações com maior eficácia.",
   },
   {
