@@ -2,8 +2,8 @@ import { Shield } from "lucide-react";
 
 const items = [
   { label: "Curso Business English para Apresentações Corporativas", value: "R$ 497" },
-  { label: "Bônus: 2 Análises Reais de Apresentações", value: "R$ 197" },
-  { label: "Bônus: Template de Apresentação (Google Slides)", value: "R$ 97" },
+  { label: "Bônus: O Modelo de Persuasão de Harvard (com Ana Paula de Castro Almeida)", value: "R$ 197" },
+  { label: "Bônus: O Framework Pyramid McKinsey (com Dr. Ana Cristina Albricker)", value: "R$ 197" },
 ];
 
 const PricingV3 = () => {
@@ -35,7 +35,7 @@ const PricingV3 = () => {
           </div>
 
           <div className="border-t border-border pt-6">
-            <p className="text-muted-foreground text-sm mb-1">Total: <span className="line-through">R$ 791</span></p>
+            <p className="text-muted-foreground text-sm mb-1">Total: <span className="line-through">R$ 891</span></p>
             <p className="text-muted-foreground text-sm mb-2">Você paga hoje:</p>
             <p className="font-heading text-4xl md:text-6xl font-bold text-foreground mb-1">
               R$ 197
