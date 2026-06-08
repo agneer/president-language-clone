@@ -22,11 +22,11 @@ const IndexV3 = () => {
       <TruthV3 />
       <ProductV3 />
       <TestimonialsV4 />
-      <WrittenTestimonialsV4 />
       <AudienceV3 />
       <AboutV3 />
       <BonusV3 />
       <PricingV3 />
+      <WrittenTestimonialsV4 />
       <ClosingV3 />
       <FAQV3 />
       <FooterV3 />
