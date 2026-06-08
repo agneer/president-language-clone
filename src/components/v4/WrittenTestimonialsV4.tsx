@@ -2,6 +2,8 @@ import anaAlmeidaPhoto from "@/assets/ana-almeida.avif.asset.json";
 import nelitoAndradePhoto from "@/assets/nelito-andrade.avif.asset.json";
 import julianoZimmerPhoto from "@/assets/juliano-zimmer.avif.asset.json";
 import georgeRubadelPhoto from "@/assets/george-rubadel.avif.asset.json";
+import anaCelanoPhoto from "@/assets/ana-celano.avif.asset.json";
+import fernandoCoradiPhoto from "@/assets/fernando-coradi.avif.asset.json";
 
 const testimonials = [
   {
