@@ -24,6 +24,7 @@ const IndexV4 = () => {
       <DeliverablesV4 />
       <BonusV4 />
       <PricingV4 />
+      <TestimonialsV4 />
       <ClosingV4 />
       <FooterV4 />
     </main>
