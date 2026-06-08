@@ -1,4 +1,6 @@
 import anaAlmeidaPhoto from "@/assets/ana-almeida.avif.asset.json";
+import nelitoAndradePhoto from "@/assets/nelito-andrade.avif.asset.json";
+import julianoZimmerPhoto from "@/assets/juliano-zimmer.avif.asset.json";
 
 const testimonials = [
   {
@@ -10,13 +12,13 @@ const testimonials = [
   {
     name: "Nelito Andrade",
     role: "Inteligência de Mercado | Planejamento | S&OP e S&OE | Big Data | IBP | I.A. | Supply Chain | Sell in Sell out | Gestão de Equipes | Customer Service | Analytics | Machine Learning | Python | VBA | Green Belt | Power BI",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=faces",
+    photo: nelitoAndradePhoto.url,
     text: "Gosto muito da abordagem da escola com uso do inglês focado a negócios, independente do ramo de atuação do aluno. Eles sempre preparam aulas para a realidade profissional do aluno. Fora isso, também me fascina as reflexões que as aulas trazem em relação às novas tecnologias e comportamentos da sociedade.",
   },
   {
     name: "Juliano Zimmer",
     role: "Gestão de Projetos | PMP® | Especialista em Melhoria Contínua | Excelência Operacional | Operações | Qualidade",
-    photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=faces",
+    photo: julianoZimmerPhoto.url,
     text: "Excelente serviço: muita competência técnica aliada à simpatia, cordialidade e didática. A Luciane tem uma grande didática e conhecimento de negócios, culturas, carreiras e inglês. Tive inúmeras experiências com ensino de inglês anteriormente e a abordagem dela superou minhas expectativas, pois aprendemos muito através de dinâmicas que representam muito bem a realidade do mundo conectado, globalizado e multicultural de hoje. Parabéns pelo trabalho! Recomendo muito!",
   },
   {
