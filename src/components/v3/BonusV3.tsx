@@ -2,18 +2,18 @@ import { Gift } from "lucide-react";
 
 const bonuses = [
   {
-    title: "Ana Paula de Castro Almeida",
-    subtitle: "Aula bônus",
+    title: "O Modelo de Persuasão de Harvard",
+    subtitle: "Com Ana Paula de Castro Almeida",
     value: "R$ 197",
     description:
-      "HR Director | Head of People and Culture | Organizational Strategy & Transformation | M&A, Business Agility, and Global Leadership. Na aula bônus, Ana Almeida compartilhou sua experiência executiva utilizando o modelo de persuasão de Harvard nas apresentações de projetos para o board.",
+      "HR Director e Head of People and Culture com passagem por M&A, Business Agility e liderança global. Você vai ver — na prática — como ela estrutura apresentações de projetos para o board usando o mesmo framework de persuasão ensinado em Harvard Business School. Um método que transforma dados em decisão, e decisão em aprovação.",
   },
   {
-    title: "Dr. Ana Cristina Albricker, M.Sc.",
-    subtitle: "Aula bônus",
+    title: "O Framework Pyramid McKinsey",
+    subtitle: "Com Dr. Ana Cristina Albricker, M.Sc.",
     value: "R$ 197",
     description:
-      "Cardiologist & Medical School Coordinator at UniBH | Professor of Medicine | Clinical Researcher. Na aula bônus, Ana Cristina compartilhou o modelo Pyramid McKinsey de apresentações que utiliza para o board.",
+      "Cardiologista, Coordenadora da Faculdade de Medicina da UniBH e pesquisadora clínica. Ela revela o modelo Pyramid da McKinsey que usa para apresentar resultados complexos de forma clara, direta e executiva. A mesma técnica que conselheiros de topo usam para fazer boards entenderem, concordarem e aprovarem em minutos.",
   },
 ];
 
