@@ -1,66 +1,12 @@
 <!doctype html>
-<!-- Meta Pixel Code (with CAPI dedup) -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1009910047703439');
-
-(function () {
-  var eventId = (self.crypto && self.crypto.randomUUID)
-    ? self.crypto.randomUUID()
-    : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
-
-  // Browser Pixel PageView with explicit event_id
-  fbq('track', 'PageView', {}, { eventID: eventId });
-
-  // Read _fbp / _fbc cookies for better matching
-  function getCookie(name) {
-    var m = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-    return m ? decodeURIComponent(m.pop()) : undefined;
-  }
-
-  // Server-side Conversions API PageView (deduped via same event_id)
-  var SUPABASE_URL = "https://uwrmdlagngkgvxzyqheq.supabase.co";
-  var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cm1kbGFnbmdrZ3Z4enlxaGVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NDc2NzQsImV4cCI6MjA5NjUyMzY3NH0.yLOL_z2adJ6rO6ECcy0XcxIPXnd_2UWTZ2OKWpmeGA0";
-
-  try {
-    fetch(SUPABASE_URL + "/functions/v1/meta-capi", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer " + SUPABASE_ANON,
-        "apikey": SUPABASE_ANON
-      },
-      body: JSON.stringify({
-        event_id: eventId,
-        event_source_url: window.location.href,
-        fbp: getCookie('_fbp'),
-        fbc: getCookie('_fbc')
-      }),
-      keepalive: true
-    }).catch(function () {});
-  } catch (e) {}
-})();
-</script>
-<!-- End Meta Pixel Code -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
     <title>Lovable App</title>
     <meta name="description" content="Lovable Generated Project">
     <meta name="author" content="Lovable" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    
-    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/310e2275-94ec-4871-b769-d074a7f58d1d/id-preview-60153a7e--1fb993fb-5d16-4937-bbec-797e498609e9.lovable.app-1773944017280.png">
 
@@ -68,10 +14,59 @@ fbq('init', '1009910047703439');
     <meta name="twitter:site" content="@Lovable" />
     <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/310e2275-94ec-4871-b769-d074a7f58d1d/id-preview-60153a7e--1fb993fb-5d16-4937-bbec-797e498609e9.lovable.app-1773944017280.png">
     <meta property="og:title" content="Lovable App">
-  <meta name="twitter:title" content="Lovable App">
-  <meta property="og:description" content="Lovable Generated Project">
-  <meta name="twitter:description" content="Lovable Generated Project">
-</head>
+    <meta name="twitter:title" content="Lovable App">
+    <meta property="og:description" content="Lovable Generated Project">
+    <meta name="twitter:description" content="Lovable Generated Project">
+
+    <!-- Meta Pixel Code (with CAPI dedup) -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1009910047703439');
+
+      (function () {
+        var eventId = (self.crypto && self.crypto.randomUUID)
+          ? self.crypto.randomUUID()
+          : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
+
+        // Browser Pixel PageView with explicit event_id
+        fbq('track', 'PageView', {}, { eventID: eventId });
+
+        function getCookie(name) {
+          var m = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+          return m ? decodeURIComponent(m.pop()) : undefined;
+        }
+
+        var SUPABASE_URL = "https://uwrmdlagngkgvxzyqheq.supabase.co";
+        var SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cm1kbGFnbmdrZ3Z4enlxaGVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NDc2NzQsImV4cCI6MjA5NjUyMzY3NH0.yLOL_z2adJ6rO6ECcy0XcxIPXnd_2UWTZ2OKWpmeGA0";
+
+        try {
+          fetch(SUPABASE_URL + "/functions/v1/meta-capi", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": "Bearer " + SUPABASE_ANON,
+              "apikey": SUPABASE_ANON
+            },
+            body: JSON.stringify({
+              event_id: eventId,
+              event_source_url: window.location.href,
+              fbp: getCookie('_fbp'),
+              fbc: getCookie('_fbc')
+            }),
+            keepalive: true
+          }).catch(function () {});
+        } catch (e) {}
+      })();
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
 
   <body>
     <!-- Meta Pixel Code (noscript) -->
