@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Nelito Andrade",
     role: "Inteligência de Mercado | Planejamento | S&OP e S&OE | Big Data | IBP | I.A. | Supply Chain | Sell in Sell out | Gestão de Equipes | Customer Service | Analytics | Machine Learning | Python | VBA | Green Belt | Power BI",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=faces",
+    photo: nelitoAndradePhoto.url,
     text: "Gosto muito da abordagem da escola com uso do inglês focado a negócios, independente do ramo de atuação do aluno. Eles sempre preparam aulas para a realidade profissional do aluno. Fora isso, também me fascina as reflexões que as aulas trazem em relação às novas tecnologias e comportamentos da sociedade.",
   },
   {
